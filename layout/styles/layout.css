@@ -18,13 +18,10 @@ padding:0;
 font-size:12px; 
 font-family:verdana, Arial, Helvetica, sans-serif; 
 color:#FFFFFF; 
-background-image: url("clan.png");
+background-image: url("clan.jpg");
 height: 100%;
 background-repeat: no-repeat;
 background-size: cover;
-
-
-
 }
 
 .justify{text-align:justify;}
