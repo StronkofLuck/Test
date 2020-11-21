@@ -11,7 +11,7 @@
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
-	html, body, div, span, applet, object,
+	html, div, span, applet, object,
 	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	pre, a, abbr, acronym, address, big, cite,
 	code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -29,6 +29,20 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+	
+	body
+{margin:0;
+padding:0; 
+font-size:12px; 
+font-family:verdana, Arial, Helvetica, sans-serif; 
+color:#FFFFFF; 
+background-image: url("images/image.jpg");
+height: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+}
+	
+		
 
 	article, aside, details, figcaption, figure,
 	footer, header, hgroup, menu, nav, section {
@@ -104,9 +118,7 @@
 		box-sizing: inherit;
 	}
 
-	body {
-		background: #f5f5f5;
-	}
+	
 
 	body, input, select, textarea {
 		color: #777;
@@ -3163,10 +3175,11 @@
 	#banner {
 		background-attachment: fixed;
 		background-color: #666;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/image.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		height: 100%;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -3251,6 +3264,7 @@
 
 	body.landing #main {
 		margin-top: -14em;
+		
 	}
 
 /* Footer */
